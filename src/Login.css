@@ -1,0 +1,106 @@
+
+.login__container{
+    background-color: #ffff;
+    margin-bottom: 40px;
+
+}
+.login__background{
+    margin-top:40px ;
+    height: 400px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 22%;
+    margin:auto;
+    
+}
+    
+
+.login__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border:1px solid gainsboro;
+padding: 10px;
+margin-top: 5px;
+border-radius: 3px;
+margin-bottom: 20px;
+}
+.login__info > h1{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+        
+}
+.login__info >label{
+    font-size: 14px;
+    padding-left: 30px;
+
+}
+.login__info >input{
+    width: 80%;
+    margin: auto;
+    padding: 5px ;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border-color:gainsboro
+
+    
+}
+.login__info>p{
+    font-size: 12px;
+    padding: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+.login__info>p>strong{
+    color: blue;
+}
+.login__info>span{
+    color: blue;
+    padding-left: 24px;
+    font-size: 14px;
+
+}
+
+.line__login{
+display: flex;
+justify-content: center;
+}
+hr{
+    width:34%;
+    height: 0;
+}
+.login__img{
+    text-align: center;
+}
+.login__info>button{
+    width: 84%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+     border-color:gainsboro;
+     background: #f0c14b;
+
+    }
+    button:hover{
+        background-color:khaki ;
+    }
+    .login>button{
+        width: 100%;
+        background-color: gainsboro;
+        border-color: grey;
+        margin-top: 10px;
+        padding: 5px ;
+    }
+    .line__login>h6{color:gray;
+        margin-top: -5px;padding: 0 4px;
+    }
+    .login__container{
+        display: flex;
+        flex-direction: column;
+    }
